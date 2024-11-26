@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.App {
+  text-align: center;
+  box-sizing: border-box;
+}
+body{
+  background: linear-gradient(90deg,#c8e0ee,#04a3e2);
+}
+button{
+  width: 150px;
+  margin: 5px;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+button:hover{
+  background-color: blueviolet;
+  color: #fff;
+  transform: scale(1.2);
+  font-weight: 600;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #000;
+}
+button:active{
+  background-color: brown;
+}
+.arrayMethodsDiv,.arrayMethods2,.arrayMethod3{
+  background-color: #45977f;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 10px;
+}
+
+.imageClass{
+  width: 150px;
+  transition: 0.3s ease-in-out;
+}
+.imageClass:hover{
+  filter: drop-shadow(5px 5px 10px #000);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.playerLabel{
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  margin: 10px;
+
+}
+.teamImages{
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
